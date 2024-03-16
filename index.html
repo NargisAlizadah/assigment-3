@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیلم های روز</title>
+    <link rel="icon" type="image/x-icon" href="icon/movie.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+
+            background: #67C6E3;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #31363F;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            background-color: #FF204E;
+            border-radius: 10px;
+        }
+
+        .title1 {
+            text-align: center;
+            font-family: b titr;
+        }
+
+        .first-image {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            border-radius: 30px;
+
+        }
+
+        .footer-title {
+
+            text-align: center;
+            color: aliceblue;
+            font-family: b titr;
+        }
+
+        .footer {
+            background: #31363F;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .box {
+            position: relative;
+            border: #31363F solid;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 150px;
+            border-radius: 10px;
+            margin-right: 100px;
+
+
+            transition: opacity .5s ease-out;
+            -moz-transition: opacity .5s ease-out;
+            -webkit-transition: opacity .5s ease-out;
+            -o-transition: opacity .5s ease-out;
+        }
+
+        .box-img {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            width: 90%;
+        }
+
+        .box-title {
+
+            text-align: center;
+        }
+
+        .box:hover {
+
+            opacity: 50%;
+            width: 320px;
+            height: 320px;
+
+        }
+
+        .main {
+            display: flex;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"><span> خانه</span> </i></a></li>
+                <li><a href="movies.html"><i class="fa fa-film"><span> فیلم ها</span></i></a></li>
+            </ul>
+        </div>
+        <h3 class="title1">فیـلم های برتر</h3>
+        <img class="first-image" src="movie3.jpg" alt="">
+        <h4 class="title1">...توضیحات فیلم<h4>
+                <br>
+                <h2 class="title1">جستجوی فیلم ها</h2>
+
+                <div class="main">
+
+                    <div class="box">
+                        <a href="movie-detail.html">
+                            <img class="box-img" src="movie1.jpg">
+                            <h3 class="box-title">عنوان فیلم 1</h3>
+                        </a>
+
+                    </div>
+                    <div class="box">
+                        <a href="movie-detail.html">
+                            <img class="box-img" src="movie2.jpg">
+                            <h3 class="box-title">عنوان فیلم 1</h3>
+                        </a>
+
+                    </div>
+                    <div class="box">
+                        <a href="movie-detail.html">
+                            <img class="box-img" src="movie3.jpg">
+                            <h3 class="box-title">عنوان فیلم 1</h3>
+                        </a>
+
+                    </div>
+                </div>
+
+    </div>
+
+    <div class="footer">
+        <p class="footer-title"><span>&copy; </span>2024 فیلم های روز</p>
+    </div>
+</body>
+
+</html>
